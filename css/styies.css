@@ -626,6 +626,15 @@ margin-right: 70px;
     padding: 40px 39px 40px 41px;
     cursor: pointer;
   }
+  .checkboxx{
+    color: #212121;
+    height: 15px;
+    width: 16px;
+    border: 2px solid #303030;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+  }
   .modal-policy{
       font-style: normal;
       font-weight: 400;
@@ -638,31 +647,9 @@ margin-right: 70px;
       display: flex;
       align-items: center;
   }
-    /* .modal-policy::before{
-      content: "";
-      Width: 16px;
-      Height: 15px;
-      border: 2px solid #212121;
-      margin-right: 8px;
-    } */
-/* .class-policy {
-  text-align: center;
-  margin-bottom: 30px;
-  position: relative;
-} */
-/* .modal-chek:checked + .modal-policy::before{
-  background: #2196F3;
-  border: none;
-} */
-/* .img-checkbox{
-  Width: 16px;
-  Height: 15px;
-  color: #212121;
-  position: absolute;
-  
-  display: block ;
-  
-} */
+  .checkboxx use{
+    fill: #FFFFFF;
+  }
 
 .vissually-hidden{
   border: 0;
@@ -679,6 +666,7 @@ margin-right: 70px;
 }
 .div-footer-email
 .modal-policy span {
+  
   Width: 16px;
   Height: 15px;
   border: 2px solid #212121;
@@ -688,10 +676,16 @@ margin-right: 70px;
   justify-content: center;
   fill: transparent;
 }
+
 .modal-chek:checked+.modal-policy span {
   background: #2196F3;
   border: none;
   fill: #FFFFFF;
+}
+.span-chekbox{
+  Width: 16px;
+    Height: 15px;
+    margin-right: 8px;
 }
 .modal-icon{
       position: absolute;
@@ -742,3 +736,9 @@ fill: #2196F3;
   text-decoration: underline;
   
 }
+.class-policy{
+  display: flex;
+ 
+  justify-content: center;
+}
+.span-chekbox
